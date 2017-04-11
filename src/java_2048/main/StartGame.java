@@ -11,6 +11,7 @@ public class StartGame {
 	 * 该类用于加载游戏运行需要的资源，并显示游戏窗体界面
 	 */
 	public static void main(String[] args) {
+		System.out.println("hello my friend!");
 		JFrame frame = new JFrame();
 		frame.setSize(500, 600);
 		frame.setResizable(false);// 不可改变窗体大小
